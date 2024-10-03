@@ -4,13 +4,19 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        Found a bug or have feedback?
-        <a href="mailto:your-email@example.com" className="footer-link">
-          Contact us
+        <a
+          href="https://github.com/mikadosham/diffread/issues/new"
+          className="footer-link"
+        >
+          Found a bug
+        </a>{" "}
+        or{" "}
+        <a href="mailto:me@adamkhomsi.ca" className="footer-link">
+          have feedback
         </a>
-        .
+        ?
       </p>
-      <p>Built with ☕ by Adam Khomsi.</p>
+      <p style={{ fontSize: "9px" }}>A Khomsi Product</p>
     </footer>
   );
 }
