@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, forwardRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons"; // Importing relevant icons
 
-function Instructions() {
+// Use forwardRef to accept a ref from the parent
+const Instructions = forwardRef((props, ref) => {
   // Retrieve the toggle state from localStorage or default to true (shown)
   const [isShown, setIsShown] = useState(() => {
     const savedState = localStorage.getItem("instructionsShown");
@@ -29,7 +30,7 @@ function Instructions() {
         />
       </h3>
       {isShown && (
-        <div className="instructions">
+        <div className="instructions" ref={ref}>
           <h2>How to Use the Diff Checker</h2>
           <ul>
             <li>
@@ -100,6 +101,6 @@ function Instructions() {
       )}
     </div>
   );
-}
+});
 
 export default Instructions;
