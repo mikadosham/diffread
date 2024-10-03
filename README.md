@@ -1,75 +1,74 @@
-<<<<<<< HEAD
-# diffread
-A quick .diff reading app
-=======
-# Getting Started with Create React App
+# DiffRead
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**DiffRead** is a simple, minimalistic diff checker app built with React. It allows users to input diff code, view the changes in an easy-to-read format, and follow along with added or removed lines of code.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Displays diffs in a clean and modern UI.
+- Supports color-coded diff output:
+  - **Green** for added lines.
+  - **Red** for removed lines.
+- Toggle visibility of detailed file changes.
+- Clear, concise instructions for users on how to interpret the diff.
+- Persists user preferences for hiding instructions using local storage.
+- Includes a footer for user feedback and bug reporting.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project locally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/your-username/diffread.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate into the project directory:
 
-### `npm run build`
+   ```bash
+   cd diffread
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This will open the app on `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is ready for deployment on [Vercel](https://vercel.com/). You can deploy it in a few simple steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Connect your GitHub repository to Vercel.
+2. Follow the steps to deploy a new project.
+3. The build and deployment process will be handled automatically.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! To contribute:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository.
+2. Create a new feature branch (`git checkout -b feature/new-feature`).
+3. Commit your changes (`git commit -m 'Add some new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a pull request.
 
-### Code Splitting
+## Issues and Feature Requests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you encounter any bugs, or have ideas for new features, please [create an issue](https://github.com/your-username/diffread/issues) or submit a feature request. Alternatively, you can reach out via email at [your-email@example.com](mailto:your-email@example.com).
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 77167f2 (Initialize project using Create React App)
+Built with ❤️ by **Adam Khomsi**.
