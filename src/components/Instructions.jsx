@@ -31,7 +31,7 @@ const Instructions = forwardRef((props, ref) => {
       </h3>
       {isShown && (
         <div className="instructions" ref={ref}>
-          <h2>How to Use the Diff Checker</h2>
+          <h2>How to Use the DiffRead</h2>
           <ul>
             <li>
               <strong>What is a diff?</strong> A diff shows the changes between

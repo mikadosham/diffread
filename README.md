@@ -1,6 +1,6 @@
 # DiffRead
 
-**DiffRead** is a simple, minimalistic diff checker app built with React. It allows users to input diff code, view the changes in an easy-to-read format, and follow along with added or removed lines of code.
+**DiffRead** is a simple, minimalistic diff reader app built with React. It allows users to input diff code, view the changes in an easy-to-read format, and follow along with added or removed lines of code.
 
 ## Features
 
