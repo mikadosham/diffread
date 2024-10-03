@@ -63,7 +63,7 @@ Contributions are welcome! To contribute:
 
 ## Issues and Feature Requests
 
-If you encounter any bugs, or have ideas for new features, please [create an issue](https://github.com/your-username/diffread/issues) or submit a feature request. Alternatively, you can reach out via email at [your-email@example.com](mailto:your-email@example.com).
+If you encounter any bugs, or have ideas for new features, please [create an issue](https://github.com/your-username/diffread/issues) or submit a feature request. Alternatively, you can reach out via email at [me@adamkhomsi.ca](mailto:me@adamkhomsi.ca).
 
 ## License
 
