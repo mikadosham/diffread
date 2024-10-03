@@ -1,38 +1,183 @@
+/* Overall App styling */
 .App {
-  text-align: center;
+  font-family: "Fira Code", monospace; /* Modern monospaced font */
+  padding: 20px;
+  background-color: #f5f5f5; /* Soft background color */
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Diff block container */
+.diff-block {
+  margin-bottom: 20px;
+  background-color: #fff; /* White background for the blocks */
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* H3 heading style */
+.diff-block h3 {
+  cursor: pointer;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.1rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid #e1e4e8;
+  background-color: #f5f5f5; /* Light grey background for the header */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+/* Change background on hover */
+.diff-block h3:hover {
+  background-color: #eaeaea;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Table styling */
+.diff-block table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+/* Table headers */
+.diff-block table th {
+  padding: 10px;
+  background-color: #f5f5f5;
+  text-align: left;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+/* Table cells */
+.diff-block table td {
+  padding: 10px;
+  font-family: "Fira Code", monospace; /* Keep the monospaced font */
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.diff-input textarea {
+  width: -webkit-fill-available;
+  height: 200px;
+}
+/* Style for added lines (+) */
+.added {
+  background-color: #e6ffed; /* Soft green background */
+  color: #2c662d; /* Dark green text */
+}
+
+/* Style for removed lines (-) */
+.removed {
+  background-color: #ffeef0; /* Soft red background */
+  color: #86181d; /* Dark red text */
+}
+
+/* Icon style */
+.toggle-icon {
+  font-size: 1.2rem;
+  color: #586069;
+  transition: transform 0.3s ease;
+}
+
+/* Add animation to the icon when expanding/collapsing */
+.toggle-icon.fa-minus {
+  transform: rotate(180deg); /* Rotate when expanded */
+}
+
+/* Diff block shadow effect when expanded */
+.diff-block.expanded {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.instructions-container {
+  margin-bottom: 20px;
+}
+
+.instructions-toggle {
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.instructions-toggle:hover {
+  background-color: #e1e4e8;
+}
+
+.instructions-toggle i {
+  font-size: 1.2rem;
+  color: #586069;
+}
+
+.instructions {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+}
+
+.instructions h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.instructions ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+  font-family: "Fira Code", monospace;
+}
+
+.instructions li strong {
+  color: #333;
+}
+
+.instructions li code {
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.instructions li span {
+  font-weight: bold;
+}
+
+.instructions i {
+  font-size: 1rem;
+  color: #586069;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+  border-top: 1px solid #e1e4e8;
+  margin-top: 40px;
+  font-family: "Fira Code", monospace;
+}
+
+.footer a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 5px 0;
 }
