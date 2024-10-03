@@ -21,7 +21,9 @@ function DiffBlock({ blockContent }) {
 
   // If paths are the same, simplify the message
   const fileChangeMessage =
-    filePathBefore === filePathAfter
+    filePathBefore === undefined || filePathBefore === null
+      ? `Create new file: ${filePathAfter}`
+      : filePathBefore === filePathAfter
       ? `Changes for ${filePathBefore}`
       : `Changes from ${filePathBefore} (before) to ${filePathAfter} (after)`;
 
@@ -32,6 +34,7 @@ function DiffBlock({ blockContent }) {
       !line.startsWith("@@") &&
       !line.startsWith("---") && // Filter out file path metadata
       !line.startsWith("+++") &&
+      !line.startsWith("new file") &&
       !line.includes("\\ No newline at end of file")
     );
   });
