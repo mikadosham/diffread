@@ -19,37 +19,29 @@ To run this project locally:
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/your-username/diffread.git
    ```
 
 2. Navigate into the project directory:
 
-   ```bash
+   ```
    cd diffread
    ```
 
 3. Install dependencies:
 
-   ```bash
+   ```
    npm install
    ```
 
 4. Start the development server:
 
-   ```bash
+   ```
    npm start
    ```
 
 This will open the app on `http://localhost:3000`.
-
-## Deployment
-
-This project is ready for deployment on [Vercel](https://vercel.com/). You can deploy it in a few simple steps:
-
-1. Connect your GitHub repository to Vercel.
-2. Follow the steps to deploy a new project.
-3. The build and deployment process will be handled automatically.
 
 ## Contributing
 
@@ -63,12 +55,6 @@ Contributions are welcome! To contribute:
 
 ## Issues and Feature Requests
 
-If you encounter any bugs, or have ideas for new features, please [create an issue](https://github.com/your-username/diffread/issues) or submit a feature request. Alternatively, you can reach out via email at [me@adamkhomsi.ca](mailto:me@adamkhomsi.ca).
+If you encounter any bugs, or have ideas for new features, please [create an issue](https://github.com/mikadosham/diffread/issues) or submit a feature request. Alternatively, you can reach out via email at [me@adamkhomsi.ca](mailto:me@adamkhomsi.ca).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Built with ❤️ by **Adam Khomsi**.
+Built with ☕ by **Adam Khomsi**.
