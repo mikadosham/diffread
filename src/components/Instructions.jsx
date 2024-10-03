@@ -38,7 +38,7 @@ function Instructions() {
               removed lines are shown in red.
             </li>
             <li>
-              <strong>Added lines:</strong>
+              <strong>Added lines: </strong>
               Lines with a{" "}
               <span style={{ color: "green" }}>
                 <strong>green background</strong>
@@ -51,7 +51,7 @@ function Instructions() {
               </code>
             </li>
             <li>
-              <strong>Removed lines:</strong>
+              <strong>Removed lines: </strong>
               Lines with a{" "}
               <span style={{ color: "red" }}>
                 <strong>red background</strong>
@@ -64,7 +64,7 @@ function Instructions() {
               </code>
             </li>
             <li>
-              <strong>Line numbers:</strong>
+              <strong>Line numbers: </strong>
               The left column shows line numbers from the original file, and the
               right column shows the line numbers in the new file.
               <br />
@@ -72,13 +72,13 @@ function Instructions() {
               in the old file corresponds to line 20 in the new file.
             </li>
             <li>
-              <strong>Toggling changes:</strong>
+              <strong>Toggling changes: </strong>
               You can collapse or expand the changes for each file by clicking
               the <FontAwesomeIcon icon={faPlus} /> or{" "}
               <FontAwesomeIcon icon={faMinus} /> icons next to each file’s name.
             </li>
             <li>
-              <strong>How to apply changes:</strong>
+              <strong>How to apply changes: </strong>
               If you want to manually apply the changes:
               <ul>
                 <li>

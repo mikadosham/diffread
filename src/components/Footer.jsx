@@ -6,7 +6,6 @@ function Footer() {
       <p>
         Found a bug or have feedback?
         <a href="mailto:your-email@example.com" className="footer-link">
-          {" "}
           Contact us
         </a>
         .
