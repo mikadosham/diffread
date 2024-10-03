@@ -10,7 +10,7 @@ function Footer() {
         </a>
         .
       </p>
-      <p>Built with ❤️ by Adam Khomsi.</p>
+      <p>Built with ☕ by Adam Khomsi.</p>
     </footer>
   );
 }
