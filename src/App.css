@@ -1,9 +1,16 @@
 /* Overall App styling */
+
+body {
+  background-color: #f5f5f5;
+}
+
 .App {
   font-family: "Fira Code", monospace; /* Modern monospaced font */
   padding: 20px;
   background-color: #f5f5f5; /* Soft background color */
   color: #333;
+  max-width: 800px;
+  margin: auto;
 }
 
 /* Diff block container */
